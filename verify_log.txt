@@ -1,19 +1,0 @@
-Starting Tracker...
- * Serving Flask app 'tracker'
- * Debug mode: off
-Starting Peer 1...
-✅ Registered with tracker (4 total peers)
-Starting Peer 2...
-✅ Registered with tracker (5 total peers)
-
---- Testing Push File ---
-📡 Connecting to peer at 127.0.0.1:6002...
-
-📥 Receiving pushed file 'test_push.txt' from p1 (30.00 B)...
-📤 Sending test_push.txt (30.00 B)...
-✅ Successfully sent file: test_push.txt
-✅ Push command successful
-test_push.txt:   0%|                                 | 0.00/30.0 [00:00<?, ?B/s]test_push.txt: 100%|█████████████████████████████████| 30.0/30.0 [00:00<?, ?B/s]
-✅ Successfully received pushed file: test_push.txt
-✅ File found in Peer 2 downloads. Size: 30
-✅ Content verified
